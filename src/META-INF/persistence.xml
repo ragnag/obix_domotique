@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="obix">
+		<class>obix.model.Bureau</class>
+		<class>obix.model.Chambre</class>
+		<class>obix.model.Commandebureau</class>
+		<class>obix.model.Cuisine</class>
+		<class>obix.model.Exterieur</class>
+		<class>obix.model.Exterieurdirection</class>
+		<class>obix.model.Frigo</class>
+		<class>obix.model.Laboratoire</class>
+		<class>obix.model.Plancher</class>
+		<class>obix.model.Salle</class>
+		<class>obix.model.Salon</class>
+		<class>obix.model.Seuilco2bureau</class>
+		<class>obix.model.Seuilhumiditebureau</class>
+		<class>obix.model.Typeeclairagebureau</class>
+		<class>obix.model.Valeursbureau</class>
+		<class>obix.model.Valeurschambre</class>
+		<class>obix.model.Valeurscommandebureau</class>
+		<class>obix.model.Valeurscuisine</class>
+		<class>obix.model.Valeursetateclairage</class>
+		<class>obix.model.Valeursetatvolet</class>
+		<class>obix.model.Valeursexterieur</class>
+		<class>obix.model.Valeursluminosteexterieur</class>
+		<class>obix.model.Valeursplancher</class>
+		<class>obix.model.Valeurssalle</class>
+		<class>obix.model.Valeurssalon</class>
+		<class>obix.model.Valeursvehiculeelectrique</class>
+		<class>obix.model.Valeursvoletmarchesalon</class>
+		<class>obix.model.Vehiculeelectrique</class>
+		<class>obix.model.Voletbureau</class>
+		<class>obix.model.Voletmarchesalon</class>
+	</persistence-unit>
+</persistence>
